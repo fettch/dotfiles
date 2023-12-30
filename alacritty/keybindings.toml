@@ -1,0 +1,6 @@
+[keyboard]
+
+bindings = [
+  { key = "D", mods = "Control", action = "ToggleSimpleFullscreen" }
+]
+
