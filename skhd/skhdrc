@@ -1,0 +1,15 @@
+# open apps
+ctrl + cmd - return : open -n -a Alacritty
+ctrl + alt - return : open -a "Google Chrome" --args --window-size=1000,700
+
+# focus window
+ctrl - h : yabai -m window --focus west
+ctrl - j : yabai -m window --focus south
+ctrl - l : yabai -m window --focus east
+ctrl - k : yabai -m window --focus north
+
+# switch position
+ctrl + cmd - space : yabai -m window --swap prev || yabai -m window --swap next
+
+# toogle service
+ctrl + cmd - w : yabai --stop-service || yabai --start-service
