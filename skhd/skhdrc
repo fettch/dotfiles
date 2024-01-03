@@ -11,5 +11,6 @@ ctrl - k : yabai -m window --focus north
 # switch position
 ctrl + cmd - space : yabai -m window --swap prev || yabai -m window --swap next
 
-# toogle service
-ctrl + cmd - w : yabai --stop-service || yabai --start-service
+# toggle layout
+ctrl + cmd - e : yabai -m config layout float
+ctrl + cmd - w : yabai -m config layout bsp
